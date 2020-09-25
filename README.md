@@ -8,5 +8,4 @@ ElGamal encryption public-key cryptosystem
 - Bob's public key <img src="https://render.githubusercontent.com/render/math?math=PK = g^{x} mod p = 227">
 
 
-<img src="https://render.githubusercontent.com/render/math?math=PK = g^{x} mod p = 227">
 Send the message '2000' to Bob.
