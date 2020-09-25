@@ -8,5 +8,5 @@ ElGamal encryption public-key cryptosystem
 - Bob's public key [PK=g^x mod p = 227]((https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=PK = g^{x} mod p = 227">
 Send the message '2000' to Bob.
