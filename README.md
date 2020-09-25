@@ -5,6 +5,6 @@ ElGamal encryption public-key cryptosystem
 
 - The shared base g=666
 - The shares prime p=6661
-- Bob's public key PK=g^x mod p = 227
+- Bob's public key [PK=g^x mod p = 227]
 
 Send the message '2000' to Bob.
