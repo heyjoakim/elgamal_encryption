@@ -9,3 +9,8 @@ ElGamal encryption public-key cryptosystem
 
 
 Send the message '2000' to Bob.
+
+2. Eve intercept Alice’s encrypted message. Find Bob’s private key and reconstruct Alice’s message.
+
+2. Mallory intercept Alice’s encrypted message. However, you run on a constrained device and are unable to find Bob’s private key.
+Modify Alice’s encrypted message so that when Bob decrypts it, he will get the message ’6000’.
