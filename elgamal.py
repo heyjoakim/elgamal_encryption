@@ -15,7 +15,7 @@ print("Alice sends PK with encrypted message ({0},{1}) to Bob".format(Alice_PK, 
 
 
 """ Eve intercepts Alice's message (AlicePK, c) """
-print(" --- Eve intercepting ---")
+print("--- Eve intercepting ---")
 
 # Messages intercepted
 A_message, c = (Alice_PK, c)
@@ -43,7 +43,7 @@ def bruteforce(A, B):
 bruteforce(A_message, B_message)
 
 """ Mallory intercepts the messages and modifies the message to '6000' """
-print(" --- Mallory intercepting ---")
+print("--- Mallory intercepting ---")
 
 M_Key = B_message**y % p # Secret computes with Bob's PK, Alices secret key
 malory_c = M_Key * 6000 # Corrupting c
