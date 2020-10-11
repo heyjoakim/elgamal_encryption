@@ -1,6 +1,6 @@
 """ ElGamal encryption public-key cryptosystem"""
 g = 666
-p = 6661  # generator
+p = 6661
 PK_bob = 2227  # Message send to Alice
 
 print("Bob sends PK ({0}) to Alice".format(PK_bob)) # Bob then sends his Public-key (g^x mod p) = 2227 to Alice
